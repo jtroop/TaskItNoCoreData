@@ -12,6 +12,11 @@
 		AE6E4BBF1D6B66A200557E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6E4BBD1D6B66A200557E45 /* Main.storyboard */; };
 		AE6E4BC11D6B66A200557E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6E4BC01D6B66A200557E45 /* Assets.xcassets */; };
 		AE6E4BC41D6B66A200557E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6E4BC21D6B66A200557E45 /* LaunchScreen.storyboard */; };
+		AE9231411D6DF01F00EBD969 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9231401D6DF01F00EBD969 /* TaskModel.swift */; };
+		AE9231451D6DF4AC00EBD969 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9231441D6DF4AC00EBD969 /* TaskDetailViewController.swift */; };
+		AEB915671D6F0EE200556F0A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB915661D6F0EE200556F0A /* Date.swift */; };
+		AEB915691D6F1BEF00556F0A /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB915681D6F1BEF00556F0A /* AddTaskViewController.swift */; };
+		AECB5C691D6C6FF700C494AD /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB5C681D6C6FF700C494AD /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AE6E4BC01D6B66A200557E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE6E4BC31D6B66A200557E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE6E4BC51D6B66A200557E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9231401D6DF01F00EBD969 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		AE9231441D6DF4AC00EBD969 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		AEB915661D6F0EE200556F0A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		AEB915681D6F1BEF00556F0A /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		AECB5C681D6C6FF700C494AD /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				AE6E4BB91D6B66A200557E45 /* AppDelegate.swift */,
 				AE6E4BBB1D6B66A200557E45 /* ViewController.swift */,
+				AE9231441D6DF4AC00EBD969 /* TaskDetailViewController.swift */,
+				AEB915681D6F1BEF00556F0A /* AddTaskViewController.swift */,
+				AE9231401D6DF01F00EBD969 /* TaskModel.swift */,
+				AEB915661D6F0EE200556F0A /* Date.swift */,
 				AE6E4BBD1D6B66A200557E45 /* Main.storyboard */,
+				AECB5C681D6C6FF700C494AD /* TaskCell.swift */,
 				AE6E4BC01D6B66A200557E45 /* Assets.xcassets */,
 				AE6E4BC21D6B66A200557E45 /* LaunchScreen.storyboard */,
 				AE6E4BC51D6B66A200557E45 /* Info.plist */,
@@ -136,7 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6E4BBC1D6B66A200557E45 /* ViewController.swift in Sources */,
+				AEB915671D6F0EE200556F0A /* Date.swift in Sources */,
+				AECB5C691D6C6FF700C494AD /* TaskCell.swift in Sources */,
+				AE9231411D6DF01F00EBD969 /* TaskModel.swift in Sources */,
 				AE6E4BBA1D6B66A200557E45 /* AppDelegate.swift in Sources */,
+				AE9231451D6DF4AC00EBD969 /* TaskDetailViewController.swift in Sources */,
+				AEB915691D6F1BEF00556F0A /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +308,7 @@
 				AE6E4BCA1D6B66A200557E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
